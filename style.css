@@ -3,8 +3,9 @@
 body {width:800px; margin: 0px auto; background-color: #E0F0F0}
 div.navbar {margin: 16px 0px;}
 #nav_logo {display: inline;}
-#nav_buttons {float: right;}
-#nav_buttons li {font-family:'Ubuntu'; margin: 0px 15px; display:inline;}
+#nav_buttons {float: right; list-style-type: none}
+#nav_buttons li {font-family:'Ubuntu'; margin: 0px 15px; display: inline;
+list-style-type: none}
 h1 {font-family:'Cardo'; margin: 5px 0px;}
 div.mockup_area ul{list-style-type: none;}
 div.mockup_area li{display: inline;}
