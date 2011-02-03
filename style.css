@@ -1,15 +1,12 @@
 @import url('http://fonts.googleapis.com/css?family=Cardo|Ubuntu');
 
-body {width:800px;margin:0px auto; text-align: center;
-background-color: #E0F0F0}
-div.navbar {margin: 16px 0px; font-family:'Ubuntu'; display:inline;}
-#nav_header {width: 800px; display:block; margin: 0px; padding: 0px;}
-#nav_buttons {text-align="right";}
-#nav_logo {text-align="left";}
-#nav_header li {display:inline;}
-#nav_buttons li {margin: 0px 15px; padding: 0px;}
+body {width:800px; margin: 0px auto; background-color: #E0F0F0}
+div.navbar {margin: 16px 0px;}
+#nav_logo {display: inline;}
+#nav_buttons {float: right;}
+#nav_buttons li {font-family:'Ubuntu'; margin: 0px 15px; display:inline;}
 h1 {font-family:'Cardo'; margin: 5px 0px;}
-div.mockup_area ul{list-style-type:none;}
-div.mockup_area li{display:inline;}
-div.contact_info ul{list-style-type:none;}
-div.content {background-color: #FFFFFF}
+div.mockup_area ul{list-style-type: none;}
+div.mockup_area li{display: inline;}
+div.contact_info ul{list-style-type: none;}
+div.content {background-color: #FFFFFF; text-align: center;}
