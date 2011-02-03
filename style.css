@@ -2,7 +2,8 @@
 
 body {width:800px;margin:0px auto; text-align: center;
 background-color: #E0F0F0}
-div.navbar {margin: 16px 0px; font-family:'Ubuntu'; display:inline;}
+div.navbar {margin: 16px 0px; font-family:'Ubuntu';}
+div.navbar img{display:inline;}
 div.navbar ul{padding:0px; margin: 0px;}
 div.navbar li{display:inline; padding:0px; margin: 0px 15px;}
 h1 {font-family:'Cardo'; margin: 5px 0px;}
