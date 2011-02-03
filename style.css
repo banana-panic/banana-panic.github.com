@@ -1,7 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Cardo|Ubuntu');
 
 body {width:800px;margin:0px auto; text-align: center;
-background-color: #F4F4F4}
+background-color: #E5F5F5}
 div.navbar {margin: 16px 0px; font-family:'Ubuntu';}
 div.navbar ul{padding:0px; margin: 0px;}
 div.navbar li{display:inline; padding:0px; margin: 0px 15px;}
