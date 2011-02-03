@@ -1,6 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Cardo|Ubuntu');
 
-body {width:800px; margin: 0px auto; background-color: #E0F0F0}
+body {width: 850px; margin: 0px auto; background-color: #E0F0F0}
 div.navbar {margin: 16px 0px;}
 #nav_logo {display: inline;}
 #nav_buttons {float: right; list-style-type: none}
@@ -9,5 +9,6 @@ list-style-type: none}
 div.mockup_area ul{list-style-type: none;}
 div.mockup_area li{display: inline;}
 div.contact_info ul{list-style-type: none;}
-div.content {background-color: #FFFFFF; text-align: center; padding: 24px 32px}
-#shadow-bottom {layout:block}
+div.content {background-color: #FFFFFF; text-align: center; padding: 24px 32px;}
+#shadow-bottom {layout:block;}
+#padded_body {width: 800px; margin: 0px auto}
