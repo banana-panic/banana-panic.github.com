@@ -1,0 +1,8 @@
+.content {background:white; margin-bottom:0; text-align:center;}
+body {background:#e0f0f0;}
+ul#nav_buttons {margin: 5px 0 0 0; padding: 10px; font-size:1.5em; background:white;}
+#nav_buttons li{display: inline; padding:9px; margin:0 6px;}
+#nav_buttons li a{text-decoration:none;}
+.current_page {background-color:#ccc;}
+.round {-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+ul {list-style-type: none;}
