@@ -1,6 +1,13 @@
 ---
-layout: page
 title: News
+layout: page
 ---
-<p>We&#39re just getting started on Android Application Development.  We&#39re reading up and getting ready.</p>
-<p>Current Status: Building a website and hammering out requirements.  Please bear with us, it&#39s a work in progress ;)</p>
+{% for post in site.posts limit:5 %}
+<hr />
+<h3>{{ post.title }}</h3>
+	{{ post.content }}
+<div class="post_subtext">
+posted {{post.date}}
+</div>
+<hr />
+{% endfor %}

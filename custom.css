@@ -8,3 +8,4 @@ ul#nav_buttons {margin: 5px 0 0 0; padding: 10px; font-size:1.5em; background:wh
 ul {list-style-type: none;}
 .mockup_area li{padding:0; margin:0; display:inline;}
 .mockup_area li img{width:300px;}
+div.post_subtext {color: #999999;}
