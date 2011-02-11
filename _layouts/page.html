@@ -1,16 +1,16 @@
 <html>
     <head>
         <title>Banana Panic - {{ page.title }}</title>
-        <link type="text/css" rel="stylesheet" href="blueprint-800/screen.css">
-        <!--[if lt IE 8]><link type="text/css" rel="stylesheet" href="css/blueprint-800/ie.css" media="screen, projection"><![endif]-->
-        <link type="text/css" rel="stylesheet" href="custom.css">
+        <link type="text/css" rel="stylesheet" href="/blueprint-800/screen.css">
+        <!--[if lt IE 8]><link type="text/css" rel="stylesheet" href="/css/blueprint-800/ie.css" media="screen, projection"><![endif]-->
+        <link type="text/css" rel="stylesheet" href="/custom.css">
     </head>
     <body>
         <div class="container">
             <div class="navbar prepend-top span-25 append-bottom last">
                 <div class="span-10">
-                    <a href="/campus-tour">
-                        <img src="img/bananapanictextlogo_sm.png" title="Banana Panic" id="nav_logo"/>
+                    <a href="/">
+                        <img src="/img/bananapanictextlogo_sm.png" title="Banana Panic" id="nav_logo"/>
                     </a>
                 </div>
                 <div class="right">
@@ -26,10 +26,10 @@
                           {% when "Mockups" %}
                             {% assign m = c %}
                         {% endcase %}
-                        <li{{ h }}><a href=".">home</a></li>
-                        <li{{ a }}><a href="about.html">about</a></li>
-                        <li{{ n }}><a href="news.html">news</a></li>
-                        <li{{ m }}><a href="mockups.html">mockups</a></li>
+                        <li{{ h }}><a href="/">home</a></li>
+                        <li{{ a }}><a href="/about.html">about</a></li>
+                        <li{{ n }}><a href="/news.html">news</a></li>
+                        <li{{ m }}><a href="/mockups.html">mockups</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                 {{ content }}
               </div>
             </div>
-            <img class="" id="shadow-bottom" src="img/shadowbottom.png" />
+            <img class="" id="shadow-bottom" src="/img/shadowbottom.png" />
         </div>
     </body>
 </html>
