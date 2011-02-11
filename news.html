@@ -4,9 +4,11 @@ layout: page
 ---
 {% for post in site.posts limit:5 %}
 <div class="post round">
-  <h2 class="news_title">{{ post.title }}</h2>
+  <a href="{{ post.url }}">
+    <h2 class="news_title">{{ post.title }}</h2>
+  </a>
   <hr class="news_break" />
-    {{ post.content }}
+  {{ post.content }}
   <div class="post_subtext">
     posted {{post.date | date: "%Y-%m-%d at %X"}}
   </div>
