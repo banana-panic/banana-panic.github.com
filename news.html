@@ -2,7 +2,7 @@
 title: News
 layout: page
 ---
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
 <div class="post round">
   <h3>{{ post.title }}</h3>
     {{ post.content }}
@@ -11,3 +11,4 @@ layout: page
   </div>
 </div>
 {% endfor %}
+<a href="/archive.html">archive</a>
