@@ -3,29 +3,65 @@ layout: page
 title: Home
 ---
 <h1>UA Campus Tour App</h1>
-<p>We&#39re a group working on an Android application at the University of Alabama called the UA Campus Tour App.</p>
-<p>On a very basic level the application is a guide for prospective students and parents to walk a
-person across campus and give a little background information about each point of interest they
-come across it.</p>
+<p>
+Banana Panic is a group of students at the University of Alabama formed with the intention
+of building a UA Campus Tour app for the Android smartphone platform.
+</p>
+<p>
+In short, our application will be a guide for prospective students and their parents while they
+walk across campus. The app will also provide vistors with background information about landmarks
+and points of interest as they come across them on campus.
+</p>
 <h1>Importance</h1>
-<p>We think a campus tour is important to any university for the purpose of recruiting students,
-faculty, and staff. While campus tours are usually offered to incoming freshmen, we want to
-make an application that is accessible to anyone with an Android smartphone.</p>
-<p>Having an application available on the market is more convenient that having to meet with a tour
-guide, dependent on their availability. With our app you can tour the campus at anytime, even
-from the comfort of your own home.</p>
-<h1>Goals</h1>
-<p>The premise is to have an application that can take you from building to building, exploring
-the campus as you go. If time and resources allow, we would like to develop a framework
-allowing other campus&#39s to build their own tour by simply adding their own building locations
-and informational tidbits or videos. In addition to the guided tour, we&#39d also like to include
-functionality to tell the user where they are and explain what the building they are looking at is
-commonly used for.</p>
+<p>
+It is our experience that campus tours are of great importance in helping prospective students
+make informed decisions about where to matriculate, as well as strongly influencing the decisions
+of potential future staff members. While campus tours are available prospective students at
+regularly-scheduled intervals, we believe that the current system is too limiting. It leaves out
+students who cannot fit these tours into their schedules. It may also exclude staff members (who
+may be interested in tour-type information, but embarrased to attend a new-student tour).
+</p>
+<p>
+Our app will also open the door to completely new discovery experiences. It will make it
+possible to have a tour-like experience from the comfort of one's own home. It will also feature a
+passive discovery mode, allowing vistors to walk around campus on their own route, while still
+providing interesting information as they approach points of interest. Finally, we expect to allow
+focused sub-tours in fine-grained areas that it would not be practical to have a dedicated tour guide for.
+</p>
+<h1>Goal Functionality</h1>
+<p>Our goal is to create an application that will guide visitors through a series of
+points-of-interest, allowing them to explor the campus as they go. In its primary mode, our app
+would display a map that would show a user both their current location and the direction of the
+next stop on their tour. Once they proceded far enough in the proper direction, a point would come
+into view on the map, allowing them to go to exactly the right place. They would then be presented
+some combination of text, images, and video that would inform them about the significance of the
+landmark. We also intend to offer spech-to-text functionality in order to facilitate the sharing of
+a single Android device among small to medium sized groups.</p>
+<p>As secondary features, we hope to add some important abilities, which have already been touched
+on. First, we hope to implement a "discovery mode", which allows for a less guided experience. The
+interface would still display a map with the user's location, but the user would not be given a
+specific destination. Instead, all points-of-interest would be highlighted on the map. The user
+would be encouraged to explore campus by their own route and would have access to the information
+about any building that they approached. It would also support pulling up information about an
+arbitrary building that the user was not close to (to facilitate off-campus viewing). Second, we
+will implement a filtering system, which would allow a user to take a tour more suited to their
+specific areas of interest. For example, a prospective computer science student, may want to take
+the "CS tour".</p>
+<p>If time allows, intent to develop our application into a general framework for that would allow
+any school to implement a similar app in a greatly reduced timeframe. In an ideal world, we would
+build a desktop application that could read a domain-specific langauge (or just xml) and a set of
+resource files and generate a compiled Android APK (application package). The specifics of this
+framework are still being fleshed out, so it could take a very different, much-reduced form.</p>
 <h1>Android Benefits</h1>
-<p>We think the Android platform is ideal for the application due to its open source nature. We
-intend to use the Global Positioning System and Location Based Services extensively to trigger
-the tour, giving information about a building as the user arrives at the location. We also plan
-to take advantage of Android&#39s text-to-speech functionality to read a location&#39s tidbit aloud for the
-user, giving the experience of having a personal tour guide and allowing a group to tour with a
-single phone.</p>
-<p>If you&#39ve got any suggestions, please <a href="about.html" title="About">drop us a line</a></p>
+<p>
+We think that the Android platform offers the ideal environment for our application due to the
+combination of its open-source, freely-available nature and its powerful APIs. We intend to use
+Android's location API extensively to determine when participants have reached trigger locations
+during their tour. giving information about a building as the user arrives at the location. We also
+plan to take advantage of Android&#39s readily-available text-to-speech functionality to read
+information aloud for the user. Finally, our idea of using a desktop app to turn our code into a
+framework for other apps simply wouldn't work on other platforms, where "app factories" are firmly
+rejected.
+</p>
+<p>If you&#39ve got any suggestions, please feel free to
+<a href="mailto:bananapanicdev@gmail.com">contact us</a></p>
