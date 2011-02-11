@@ -3,5 +3,5 @@ layout: page
 title: Archive
 ---
 {% for post in site.posts %}
-<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+{{ post.date | date: "%Y-%m-%d" }}: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 {% endfor %}
