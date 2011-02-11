@@ -7,7 +7,7 @@ layout: page
   <h3>{{ post.title }}</h3>
     {{ post.content }}
   <div class="post_subtext">
-    posted {{post.date}}
+    posted {{post.date | date: "%Y-%m-%d at %X"}}
   </div>
 </div>
 {% endfor %}
