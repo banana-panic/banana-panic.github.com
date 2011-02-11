@@ -9,3 +9,4 @@ ul {list-style-type: none;}
 .mockup_area li{padding:0; margin:0; display:inline;}
 .mockup_area li img{width:300px;}
 div.post_subtext {color: #999999;}
+div.post {background-color: e0f0f0; padding: 10px; margin: 10px 0;}

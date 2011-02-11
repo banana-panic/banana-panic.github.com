@@ -3,11 +3,11 @@ title: News
 layout: page
 ---
 {% for post in site.posts %}
-<hr />
-<h3>{{ post.title }}</h3>
-	{{ post.content }}
-<div class="post_subtext">
-posted {{post.date}}
+<div class="post round">
+  <h3>{{ post.title }}</h3>
+    {{ post.content }}
+  <div class="post_subtext">
+    posted {{post.date}}
+  </div>
 </div>
-<hr />
 {% endfor %}
