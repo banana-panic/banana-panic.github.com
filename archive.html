@@ -2,6 +2,8 @@
 layout: page
 title: Archive
 ---
+<h1>Archive</h1>
+<hr />
 {% for post in site.posts %}
 {{ post.date | date: "%Y-%m-%d" }}: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 {% endfor %}
