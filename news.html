@@ -4,7 +4,8 @@ layout: page
 ---
 {% for post in site.posts limit:5 %}
 <div class="post round">
-  <h3>{{ post.title }}</h3>
+  <h2 class="news_title">{{ post.title }}</h2>
+  <hr class="news_break" />
     {{ post.content }}
   <div class="post_subtext">
     posted {{post.date}}
