@@ -12,13 +12,13 @@ When a user presses the search button, they will initially be presented with a l
 Tapping the name of the building will snap to the building's location on the map.
 
 
-### Image Gallery
-!["Image Gallery"](/img/mu7.png "Search")
-
-Once a user taps the picture gallery button for a specific building, they'll see a gallery of thumbnails.  Clicking on a thumbnail blows the image up to fill the screen, where they can scroll through all the available pictures.
-
-
 ### A/V Gallery
-!["A/V Gallery"](/img/mu8.png "Search")
+!["A/V Gallery"](/img/mu7.png "Search")
 
 Once a user selects the AV List button they'll see a list of video and audio files available. Video files will have a thumbnail while audio files will display an audio icon designating the different file types on the list.  We'll also have a short one line description of the file and the length of the recording.
+
+
+### Image Gallery
+!["Image Gallery"](/img/mu8.png "Search")
+
+Once a user taps the picture gallery button for a specific building, they'll see a gallery of thumbnails.  Clicking on a thumbnail blows the image up to fill the screen, where they can scroll through all the available pictures.
