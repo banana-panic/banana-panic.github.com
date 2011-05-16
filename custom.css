@@ -1,13 +1,15 @@
 a {text-decoration:none;}
 .content {background:white; margin-bottom:0; text-align:center;}
 body {background:#e0f0f0;}
-ul#nav_buttons {margin: 5px 0 0 0; padding: 10px; font-size:1.5em; background:white;}
+ul#nav_buttons {margin: 5px 0 0 0; padding: 10px; font-size:1.3em; background:white;}
 #nav_buttons li{display: inline; padding:9px; margin:0 6px;}
 .current_page {background-color:#d6d6e0;}
 .round {-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
 ul {list-style-type: none;}
 .mockup_area li{padding:0; margin:0; display:inline;}
 .mockup_area li img{width:300px;}
+.screenshot_area li{padding:0; margin:0; display:inline;}
+.screenshot_area li img{width:300px; padding:5}
 div.post_subtext {color: #999999;}
 div.post {background-color: e0f0f0; padding: 10px; margin: 10px 0;}
 h2.news_title {margin-bottom:0.25em;}
