@@ -21,6 +21,8 @@
                             {% assign h = c %}
                           {% when "About" %}
                             {% assign a = c %}
+                          {% when "Download" %}
+                            {% assign d = c %}
                           {% when "News" %}
                             {% assign n = c %}
                           {% when "Mockups" %}
@@ -28,6 +30,7 @@
                         {% endcase %}
                         <li{{ h }}><a href="/">home</a></li>
                         <li{{ a }}><a href="/about.html">about</a></li>
+                        <li{{ d }}><a href="/download.html">download</a></li>
                         <li{{ n }}><a href="/news.html">news</a></li>
                         <li{{ m }}><a href="/mockups.html">mockups</a></li>
                     </ul>
